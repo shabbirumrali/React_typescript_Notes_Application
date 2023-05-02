@@ -10,6 +10,7 @@ function App() {
   return (
     <div className='app'>
       <Header />
+      <h2>This is a test run</h2>
       <Container className="mt-5">
         <Row>
           <Col md="6"><CreateNotes notes={notes} setNotes={setNotes} /></Col>
